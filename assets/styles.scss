@@ -6,5 +6,53 @@ styles: true
 @import "alembic";
 
 a {
-color: #ef981c;
+color: #7f9ed3;
+}
+
+a:active {
+ color: #dee0e2;
+}
+
+a:hover {
+ color: #003366;
+}
+
+.typeset h1 {
+ color: #003366;
+}
+
+.typeset h2 {
+ color: #003366;
+}
+
+.typeset h3 {
+ color: #003366;
+}
+
+.typeset h4 {
+ color: #003366;
+}
+
+.typeset h5 {
+ color: #003366;
+}
+
+.typeset h6 {
+ color: #003366;
+}
+
+.footer {
+	background: #dee0e2;
+	text-color: #3d3d3d;
+}
+
+.feature {
+	max-height: 120px;
+}
+.aside {
+	max-width:20%;
+}
+
+.typeset p a,.typeset li a {
+ background-image:linear-gradient(to bottom, transparent 50%, #fab700 50%);
 }
